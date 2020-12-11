@@ -1,0 +1,31 @@
+.welcome {
+  height: 300px;
+}
+.two-step {
+  height: 230px;
+}
+.three-step {
+  height: 200px;
+}
+.line {
+  width: 70%;
+}
+#changeMode{
+  cursor: pointer;
+}
+.far{
+  cursor: pointer;
+}
+.fab{
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .far {
+    width: 20px;
+    height: 20px;
+  }
+  .fab {
+    width: 20px;
+    height: 20px;
+  }
+}
