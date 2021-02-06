@@ -1,31 +1,22 @@
-.welcome {
-  height: 300px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #1a202c;
 }
-.two-step {
-  height: 230px;
+
+* {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  text-align: center;
 }
-.three-step {
-  height: 200px;
+
+.container {
+  margin-top: 4rem;
 }
-.line {
-  width: 70%;
-}
-#changeMode{
-  cursor: pointer;
-}
-.far{
-  cursor: pointer;
-}
-.fab{
-  cursor: pointer;
-}
-@media screen and (max-width: 900px) {
-  .far {
-    width: 20px;
-    height: 20px;
-  }
-  .fab {
-    width: 20px;
-    height: 20px;
+
+@media screen and (max-width: 500px) {
+  * {
+    font-size: medium;
   }
 }
